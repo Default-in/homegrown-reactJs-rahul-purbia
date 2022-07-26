@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  border: 1px solid red;
+  padding: 2em;
+  background: #333;
+  border-radius: 5px;
+}
+
+button {
+  padding: 1em;
+  border: 1px solid blue;
+  border-radius: 5px;
+  background-color: aqua;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(129, 232, 232);
+}
+span {
+  padding: 1.5em;
+  color: white;
+  font-size: 22px;
+}

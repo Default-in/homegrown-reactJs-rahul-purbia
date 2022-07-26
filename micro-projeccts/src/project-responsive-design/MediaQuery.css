@@ -1,0 +1,33 @@
+.text {
+    background-color: orange;
+}
+
+@media screen and (max-width: 1200px) {
+    .text {
+        background-color: red;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .text {
+        background-color: lightgreen;
+    }
+}
+
+@media screen and (max-width: 578px) {
+    .text {
+        background-color: lightblue;
+    }
+}
+
+@media screen and (max-width: 372px) {
+    .text {
+        background-color: indigo;
+    }
+}
+
+@media screen and (max-width: 120px) {
+    .text {
+        background-color: violet;
+    }
+}

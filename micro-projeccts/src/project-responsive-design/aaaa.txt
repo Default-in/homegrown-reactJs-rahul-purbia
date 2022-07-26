@@ -1,0 +1,6 @@
+Blog     Coming from                        BlogPost                   Access      status
+1       /blog(i.e. router)                  show first blog        location         working
+4       /blog(i.e. router)                  show fourth blog        location        working
+100       url bar(i.e direct)               blog does not exist      -              working
+0           url bar(i.e direct)              blog does not exist      -              working
+1            url bar (i.e direct)            show first blog          from db         working

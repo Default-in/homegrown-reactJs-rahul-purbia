@@ -1,0 +1,22 @@
+:root {
+    --body-light-background: white;
+    --text-light-theme-color: black;
+    --body-dark-background: #333;
+    --text-dark-theme-color: white;
+}
+
+.container {
+    padding: 5em;
+    text-align: center;
+}
+
+.dark-theme-container {
+    background-color: var(--body-dark-background);
+    color: var(--text-dark-theme-color);
+}
+
+.light-theme.container {
+    background-color: var(--body-light-background);
+    color: var(--text-light-theme-color);
+
+}

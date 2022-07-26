@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.container div {
+    flex: 0 1 auto;
+    max-width: 1200px;
+    text-align: center;
+    background-color: lightcoral;
+    border: 1px solid black;
+}

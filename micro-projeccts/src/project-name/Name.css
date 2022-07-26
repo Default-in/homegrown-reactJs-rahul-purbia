@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.wrapper {
+  width: 80vw;
+  padding: 2em;
+  border: 1px solid red;
+  background-color: #333;
+  border-radius: 5px;
+  text-align: center;
+}
+.display {
+  height: 1.2em;
+  word-wrap: break-word;
+  margin-bottom: 0.5em;
+  font-size: 1.2em;
+  color: white;
+}
+label {
+  color: white;
+  display: block;
+  text-align: left;
+  margin-bottom: 0.2em;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.name {
+  width: 100%;
+  padding: 0.3em;
+  border-radius: 5px;
+  border-color: #333;
+  font-size: 1.2em;
+}
+
+/* Only Second task (sub task) css */
+
+button {
+  padding: 0.5em;
+  background-color: aqua;
+  border-radius: 5px;
+  margin-top: 0.5em;
+  cursor: pointer;
+  border: 1px solid rgb(183, 180, 180);
+  font-weight: bold;
+}
+button:hover {
+  background-color: rgb(70, 238, 238);
+}

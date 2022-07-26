@@ -1,0 +1,29 @@
+.user-details {
+    margin: 2em;
+    border: 1px solid black;
+    width: fit-content;
+    height: fit-content;
+    padding: 2em;
+}
+
+#second-section {
+    display: flex;
+}
+
+#third-component-container {
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid grey;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.increment-btn-wrapper {
+    text-align: center;
+}
+
+.increment-btn-wrapper button {
+    cursor: pointer;
+}

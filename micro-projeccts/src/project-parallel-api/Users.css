@@ -1,0 +1,15 @@
+.container{
+padding:3em;
+}
+
+button{
+    margin-bottom: 2em;
+    padding:0.3em;
+    cursor: pointer;
+}
+
+table,td,th{
+    border:1px solid black;
+    padding:0.3em;
+    
+}

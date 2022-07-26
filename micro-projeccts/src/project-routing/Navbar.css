@@ -1,0 +1,27 @@
+.navigation-bar {
+    height: 4em;
+    background-color: #333;
+}
+
+.navigation-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.navigation-links li {
+    list-style: none;
+}
+
+.navigation-bar li a {
+    text-decoration: none;
+    color: white;
+    height: fit-content;
+}
+
+.navigation-bar li a.active {
+    color: green;
+    font-weight: bold;
+    text-decoration: underline;
+}

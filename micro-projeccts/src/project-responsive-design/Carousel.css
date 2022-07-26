@@ -1,0 +1,14 @@
+.carousel {
+    display: flex;
+    gap: 1em;
+    overflow-x: auto;
+}
+
+.carousel-element {
+    flex: 1 0 30%;
+    background-color: #333;
+    max-height: 100px;
+    color: white;
+    padding: 5em 2em;
+    text-align: center;
+}

@@ -1,0 +1,28 @@
+:root {
+    --button-light-bg: blue;
+    --button-light-color: white;
+    --button-dark-bg: lightyellow;
+    --button-dark-color: black;
+}
+
+.button-wrapper {
+    text-align: center;
+    margin-bottom: 3em;
+    margin-top: 0.6em;
+}
+
+.toggle-theme-button {
+    padding: 0.3em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dark-button {
+    background-color: var(--button-dark-bg);
+    color: var(--button-dark-color);
+}
+
+.light-button {
+    background-color: var(--button-light-bg);
+    color: var(--button-light-color);
+}
